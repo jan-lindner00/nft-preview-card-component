@@ -16,8 +16,8 @@ export default function App(): JSX.Element{
           className="c-card__link" 
           href="#" 
           aria-label="See details of Equilibrium #3429."
-          onMouseEnter={()=>setIsHovered(true)}
-          onMouseLeave={()=>setIsHovered(false)}
+          onMouseEnter={():void =>setIsHovered(true)}
+          onMouseLeave={():void =>setIsHovered(false)}
         ></a>
         <section className="c-card__imagecontainer">
           <img 
